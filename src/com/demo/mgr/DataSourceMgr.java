@@ -30,9 +30,9 @@ public class DataSourceMgr {
         } catch (PropertyVetoException e) {
             e.printStackTrace();
         }
-        source.setJdbcUrl("jdbc:mysql://localhost:3306?characterEncoding=utf8&useSSL=true");
+        source.setJdbcUrl("jdbc:mysql://101.132.103.111:3306?characterEncoding=utf8&useSSL=true");
         source.setUser("root");
-        source.setPassword("111111");
+        source.setPassword("123456");
         source.setCheckoutTimeout(10000);
         source.setIdleConnectionTestPeriod(30);
         source.setInitialPoolSize(10);
