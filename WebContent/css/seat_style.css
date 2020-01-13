@@ -1,6 +1,6 @@
 .content {
     width: 1200px;
-    margin: 20px auto;
+    margin: 40 auto;
     background: white;
 }
 .content .desc, .row {
@@ -61,4 +61,11 @@
     text-align: center;
     margin-top: 20px;
     padding-bottom: 20px;
+}
+.homefoot{
+	width: auto;
+	height:auto;
+	text-align: center;
+	background: #222;
+	line-height: 100px;
 }

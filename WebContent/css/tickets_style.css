@@ -1,12 +1,11 @@
 .content {
     width: 1000px;
     margin: 20px auto;
-    background: white;
-    padding: 1px 0;
+    background: #efe;
+    overflow: hidden;
 }
 .nav_bar {
     margin: 0;
-    border-bottom: 1px solid #65B336;
 }
 .list li {
     width: 1000px;

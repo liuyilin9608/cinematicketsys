@@ -93,6 +93,9 @@
             </form>            
         </c:if>
     </div>
+  <div class="homefoot">
+ 	&copy; <script>document.write(new Date().getFullYear())</script> Get Shit Done Kit by  Creative Tim, More Templates <a href="http://www.cssmoban.com/" target="_blank">难毕业工作室</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">难毕业工作室</a>.
+</div>
 </body>
 <script>
     if (${!empty order}) {

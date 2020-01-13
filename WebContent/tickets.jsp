@@ -8,8 +8,20 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/mgr_head.css" />
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" />
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/tickets_style.css" />
+    <style>
+        .homefoot{
+			width: auto;
+			height:100px;
+			text-align: center;
+			background: #111;
+			line-height: 100px;
+			margin-top: 40px;
+	}
+    </style>
 </head>
 <body>
+<%@include file="commen_head.jsp" %>
+<div class="main" style="overflow:hidden;">
 <div class="content">
     <%@include file="my_head.jsp" %>
     <c:if test="${fn:length(tickets) <= 0}">
@@ -47,6 +59,10 @@
             </c:forEach>
         </ul>
     </div>
+</div>
+</div>
+<div class="homefoot">
+ &copy; <script>document.write(new Date().getFullYear())</script> Get Shit Done Kit by  Creative Tim, More Templates <a href="http://www.cssmoban.com/" target="_blank">难毕业工作室</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">难毕业工作室</a>.
 </div>
 </body>
 </html>

@@ -35,11 +35,8 @@
                     <a href="${pageContext.request.contextPath}/my/chgpwd" class="last">修改密码</a>
                 </c:if>
             </li>
+            <li>  <a href="${pageContext.request.contextPath}/home">返回首页</a></li>
         </ul>
     </div>
-    <div class="nav_right">
-        <a href="${pageContext.request.contextPath}/home">首页</a>
-        <span class="divider"> | </span>
-        <a href="${pageContext.request.contextPath}/logout">退出</a>
-    </div>
+    
 </div>

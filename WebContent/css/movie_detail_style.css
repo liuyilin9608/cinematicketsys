@@ -138,3 +138,10 @@
 .write {
     cursor: pointer;
 }
+.homefoot{
+	width: auto;
+	height:100px;
+	text-align: center;
+	background: #222;
+	line-height: 100px;
+}

@@ -11,29 +11,22 @@
     <script src="${pageContext.request.contextPath}/js/my.js"></script>
 </head>
 <body>
+<jsp:include page="commen_head.jsp"></jsp:include>
+<div class="space-30"></div>
+<div class="main" style="overflow:hidden;">
 <div class="content">
     <div class="nav_bar">
         <div class="nav_title">
             <ul class="menu">
                 <li>
-                    <a href="${pageContext.request.contextPath}/home" class="chked">影片</a>
+                    <a href="${pageContext.request.contextPath}/home" class="chked">近期热映</a>
                 </li>
                 <li>
                     <a href="${pageContext.request.contextPath}/sales">票房统计</a>
                 </li>
             </ul>
         </div>
-        <div class="nav_right">
-            <c:if test="${empty sessionScope.user }">
-                <a href="${pageContext.request.contextPath}/admin">后台管理</a><span class="divider"> | </span>
-                <a href="${pageContext.request.contextPath}/login">登录</a><span class="divider"> | </span><a href="${pageContext.request.contextPath}/reg">注册</a>
-            </c:if>
-            <c:if test="${!empty sessionScope.user }">
-                <a href="${pageContext.request.contextPath}/admin">后台管理</a><span class="divider"> | </span>
-                <a href="${pageContext.request.contextPath}/my">个人中心</a><span class="divider"> | </span>
-                <a href="${pageContext.request.contextPath}/logout" onclick="return confirmAction('确定退出吗？')">退出</a>
-            </c:if>
-        </div>
+       
     </div>
     <c:if test="${fn:length(movies) <= 0}">
         <p class="empty_list">暂无影片</p>
@@ -65,6 +58,8 @@
         </c:forEach>
     </ul>
 </div>
+</div>
+<jsp:include page="commen_foot.jsp"></jsp:include>
 </body>
 <script src="${pageContext.request.contextPath}/js/clamp.min.js"></script>
 <script>

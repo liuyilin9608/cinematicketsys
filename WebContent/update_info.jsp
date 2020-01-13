@@ -12,14 +12,23 @@
             width: 1000px;
             height: 300px;
             margin: 20px auto;
+            background: #efe;
         }
         .content form {
             margin-top: 30px;
         }
         .nav_bar {
             margin: 0;
-            border-bottom: 1px solid #65B336;
+          
         }
+        .homefoot{
+			width: auto;
+			height:100px;
+			text-align: center;
+			background: #111;
+			line-height: 100px;
+			margin-top: 40px;
+	}
     </style>
     <c:if test="${!empty success}">
         <script type="text/javascript">
@@ -29,6 +38,8 @@
     </c:if>
 </head>
 <body>
+<%@include file="commen_head.jsp" %>
+<div class="main" style="overflow:hidden;">
 <div class="content">
     <%@include file="my_head.jsp" %>
     <form action="${pageContext.request.contextPath}/my/update" method="post">
@@ -38,6 +49,10 @@
         <p><input type="submit" class="submit" value="修改"></p>
         <p class="error_msg">${empty msg ? "" : msg }</p>
     </form>
+</div>
+</div>
+<div class="homefoot">
+ &copy; <script>document.write(new Date().getFullYear())</script> Get Shit Done Kit by  Creative Tim, More Templates <a href="http://www.cssmoban.com/" target="_blank">难毕业工作室</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">难毕业工作室</a>.
 </div>
 </body>
 </html>

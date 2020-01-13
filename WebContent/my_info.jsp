@@ -12,29 +12,45 @@
         .content {
             width: 1000px;
             height: 300px;
-            background: #FFF;
-            margin: 20px auto;
+            background: #efe;
+            margin: 0 auto;
             position: relative;
+            margin-bottom: 60px;
+           
         }
         .content table {
             padding-top: 16px;
             width: 320px;
+            margin-left:50px;
             margin: 0 auto;
+            margin-left:50px;
             color: #333;
             border-spacing: 0;
         }
         .content table td {
             padding: 14px 0;
-            border: 0;
+          
+            width:100px;
+           	
         }
         .content table .title {
             color: #333;
             font-weight: bold;
             width: 90px;
         }
+        .homefoot{
+		width: auto;
+		height:100px;
+		text-align: center;
+		background: #111;
+		line-height: 100px;
+		
+	}
     </style>
 </head>
 <body>
+ <%@include file="commen_head.jsp" %>
+<div class="main" style="overflow:hidden;">
 <div class="content">    
     <%@include file="my_head.jsp" %>
     <table>
@@ -58,5 +74,7 @@
         </tr>
     </table>
 </div>
-</body>
+<div class="homefoot">
+ &copy; <script>document.write(new Date().getFullYear())</script> Get Shit Done Kit by  Creative Tim, More Templates <a href="http://www.cssmoban.com/" target="_blank">难毕业工作室</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">难毕业工作室</a>.
+</div>
 </html>
