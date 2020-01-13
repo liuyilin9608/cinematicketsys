@@ -1,0 +1,56 @@
+.content {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+}
+.content ul .item {
+    width: 920px;
+    padding: 15px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.content .ev_title {
+    width: 920px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+.content ul .item .ev_title .movie_name, .username {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content ul .item .ev_title .movie_name {    
+    width: 150px;    
+    color: #444;
+    font-weight: bold;
+}
+.content ul .item .ev_title .username {
+    width: 110px;
+    color: #6BC1EB;    
+}
+.evaluate_time {
+    float: left;
+    color: #888;
+    margin-left: 10px;
+}
+.content ul .item .ev_title .blue_a {
+    float: right;
+    margin-right: 10px;
+}
+.evaluate_txt {
+    clear: both;
+}
+.reply_li {
+    width: 870px;
+    margin: 0 15px 15px 30px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.reply_title {
+    width: 870px;
+}
+.un {
+    font-weight: bold;
+    color: #4093C6;
+}

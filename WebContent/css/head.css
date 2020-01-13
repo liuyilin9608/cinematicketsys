@@ -1,0 +1,27 @@
+.nav_bar {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ccc;
+    border-bottom: 3px solid #65B336;
+}
+.nav_bar .title {
+    float: left;
+    width: 700px;
+    height: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #65B336;
+}
+.nav_right {
+    float: right;
+    margin-right: 20px;
+}
+.nav_right .guest {
+    padding-left: 50px;
+}
+.nav_right .logined {
+    padding-left: 10px;
+}
+.divider {
+    color: #cccccc;
+}

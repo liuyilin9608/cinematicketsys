@@ -1,0 +1,50 @@
+.content {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 1px 0;
+}
+.nav_bar {
+    margin: 0;
+    border-bottom: 1px solid #65B336;
+}
+.list li {
+    width: 1000px;
+    height: 160px;
+    margin: 10px;
+}
+.list .pic {
+    float: left;
+    width: 112px;
+    height: 160px;
+}
+.list li .info {
+    float: left;
+    width: 600px;
+    margin-left: 20px;
+}
+.list li p {
+    margin-top: 4px;
+}
+.list li .movie_info, .hall_info, .buy_time, .order_id {
+    color: #999;
+    font-size: 13px;
+}
+.list li .movie_name, .money {
+    font-weight: bold;
+}
+.list li .money {
+    margin-top: 30px;
+}
+.list li .state {
+    float: left;
+    width: 120px;
+    height: 160px;
+    line-height: 160px;
+    font-weight: bold;
+    text-align: center;
+}
+.list li .blue_a {
+    float: left;
+    margin: 70px 0 0 20px;
+}

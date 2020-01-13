@@ -1,0 +1,24 @@
+.list {
+    width: 1000px;
+    background: #FFF;
+    margin: 20px auto;
+    position: relative;
+}
+
+.list table {
+    width: 100%;
+    border-spacing: 0
+}
+.list table th {
+    width: 20%;
+    padding: 10px;
+}
+
+.list table td {
+    padding: 18px;
+    border: 0;
+    text-align: center;
+}
+.list .blue_a {
+    margin-left: 50px;
+}

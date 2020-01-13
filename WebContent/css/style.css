@@ -1,0 +1,71 @@
+html,body,p,a,div,span,button,form,input,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;    
+}
+body {
+    background: #E9E9E9;
+}
+ul li {
+    list-style: none;
+}
+.input_box {
+    background:rgba(0,0,0,.1);
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+}
+.submit {
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    background:#65B336;
+    color: white;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+}
+.submit:hover{
+    cursor: pointer;
+    background:#459415;
+}
+.error_msg {
+    color: red;
+}
+a {
+    text-decoration:none;
+    color: #65B336;
+}
+a:hover{    
+    color:#77D13F;
+}
+p {
+    color: #333;
+}
+.empty_list {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.blue_a {
+    width: 80px;
+    height: 30px;
+    display: block;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    color: #008CFF;
+    font-size: 14px;
+    border: solid #008CFF 1px;
+    border-radius: 3px;
+}
+.blue_a:hover {
+    cursor: pointer;
+    color: white;
+    background: #008CFF;
+}
+.odd {
+    background: #f8f8f8;
+}

@@ -1,0 +1,45 @@
+.add {
+    width: 1000px;
+    height: 80px;
+    margin: 20px auto;
+    background: white;
+}
+.add .input_box {
+    margin: 20px 0 20px 30px;
+    width: 80px;
+}
+.add .hall_type {
+    width: 80px;
+    height: 40px;
+    margin: 20px 0 20px 30px;
+    padding-left: 5px;
+}
+.add .hall_name {
+    margin-left: 80px;
+    width: 180px;    
+}
+.add .left {
+    float: left;
+}
+.add .s_add {
+    float: right;
+    width: 80px;
+    height: 40px;
+    background:#65B336;
+    color: white;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+    margin: 20px 140px 20px 0;
+}
+.add .s_add:hover {
+    cursor: pointer;
+    background:#44B200;
+}
+.add .error_msg {
+    margin-left: 20px;
+}
+.list {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+}

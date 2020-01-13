@@ -1,0 +1,140 @@
+.detail {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding-bottom: 1px;
+}
+.detail .movie_info {
+    margin: 15px;
+    width: 100%;
+    height: 300px;
+}
+.detail .movie_info .pic {
+    float: left;
+    width: 210px;
+    height: 300px;
+}
+.detail .movie_info .txt {
+    float: left;
+    margin-left: 30px;
+}
+.detail .movie_info .txt p {
+    width: 740px;
+    margin-top: 14px;
+}
+.detail .movie_info .txt .info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detail .movie_info .txt .movie_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.detail .movie_info .buy {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    padding: 0;
+    background:#65B336;
+    color: white;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.detail .movie_info .buy:hover {
+    cursor: pointer;
+    background:#44B200;
+}
+.detail .synopsis {
+    margin: 15px;
+}
+.detail .synopsis .title {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.evaluate {
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+}
+.evaluate .title_bar {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #ddd;
+}
+.evaluate .title_bar .title {
+    font-weight:bold;
+    margin-left: 20px;
+}
+.evaluate .title_bar .write {
+    margin-left: 870px;
+}
+.evaluate .item {
+    width: 970px;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.evaluate .item .eva_title {
+    height: 20px;
+    font-size: 12px;
+}
+.evaluate .item .ev_title {
+    width: 970px;    
+}
+.evaluate .item .re_title {
+    width: 920px;    
+}
+.evaluate .item .re_title .nick {
+    font-weight: bold;
+    color: #4093C6;
+}
+.evaluate .item .nickname {
+    float: left;    
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #6BC1EB;    
+}
+.evaluate .item .evaluate_time {
+    float: left;
+    color: #888;
+    margin-left: 10px;
+}
+.evaluate .item .reply {
+    float: right;
+    color: #4093C6;
+}
+.evaluate .item .cont {
+    margin-top: 8px;
+}
+.evaluate .reply_li {
+    width: 920px;
+    margin: 0 15px 15px 30px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.space {
+    background: #E9E9E9;
+    height: 20px;
+}
+#write_eva {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#write_eva p {
+    margin-top: 20px;
+}
+#write_eva textarea {
+    width: 960px;
+    margin: 0 auto;
+}
+.write {
+    cursor: pointer;
+}

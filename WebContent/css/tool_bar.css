@@ -1,0 +1,27 @@
+.tool_bar {
+    width: 1000px;
+    height: 40px;
+    margin: 20px auto;
+}
+.tool_bar .search {
+    float: right;
+}
+.tool_bar .search .input_box {
+    background: white;
+}
+
+.tool_bar .search .search_action {
+    float: right;
+    width: 80px;
+    height: 40px;
+    margin-left: 5px;
+    line-height: 40px;
+    background:#65B336;
+    color: white;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+}
+.tool_bar .search .search_action:hover {
+    cursor: pointer;
+    background:#44B200;
+}

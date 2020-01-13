@@ -1,0 +1,23 @@
+.content {    
+    background: #FFF;
+    margin:200px auto;
+    position: relative;
+}
+.content form .title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+.content form p {
+    text-align: center;
+}
+.input_box {
+    margin-top: 15px;
+}
+.submit {
+    margin-top: 15px;
+}
+.error_msg {
+    margin-top: 15px;
+}

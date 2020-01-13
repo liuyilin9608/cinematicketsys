@@ -1,0 +1,62 @@
+.content {
+    width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding-bottom: 20px;
+}
+table {
+    margin-top: 50px;
+    width: 100%;
+    border-spacing: 0
+}
+table th {
+    padding: 10px;
+}
+table td {
+    padding: 18px;
+    border: 0;
+    text-align: center;
+}
+.price {
+    color: red;
+}
+.space {
+    width: 1160px;
+    height: 1px;
+    border-bottom: 1px solid #cccccc;
+    margin: 20px;
+}
+.pay_way {
+    margin: 30px 0 0 60px;
+}
+
+.right {
+    width: 100%;
+    text-align: right;
+}
+.money {
+    font-size: 28px;
+}
+.real_pay {
+    margin: 20px 20px 0 0;
+}
+.submit {
+    margin: 10px 20px 0 0;
+    width: 200px;
+}
+.wechat {
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    z-index: 2;
+}
+.alipay {
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    z-index: 2;
+}

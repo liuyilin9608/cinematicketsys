@@ -1,0 +1,64 @@
+.content {
+    width: 1200px;
+    margin: 20px auto;
+    background: white;
+}
+.content .desc, .row {
+    width: 1200px;
+    height: 42px;    
+    text-align: center;
+}
+.content .desc {
+    padding-left: 50px;
+    height: 60px;
+}
+.content img {
+    width: 30px;
+    height: 30px;
+    margin: 6px;  
+}
+.content .desc img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    float: left;
+}
+.content .desc span {
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    width: 40px;
+    float: left;
+}
+.content .screen {
+    width: 800px;
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+.content .amount {
+    margin-left: 40px;
+}
+.content .amount, #total {
+    font-size: 26px;
+    font-weight: bold;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+.content #total {
+    color: #E75551;
+}
+.content .seat_area {
+    padding-top: 200px;
+}
+.content .sub {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

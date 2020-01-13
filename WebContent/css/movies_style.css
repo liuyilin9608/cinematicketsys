@@ -1,0 +1,72 @@
+.content {
+    width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 4px 0;
+}
+.tool_bar .add {
+    float: left;
+    width:150px;
+    height:40px;
+    color: white;
+    text-align: center;
+    background: #65B336;
+}
+.tool_bar .add:hover {
+    cursor: pointer;
+    background:#44B200;
+}
+.tool_bar .add span {
+    height: 40px;
+    line-height: 40px;
+}
+.tool_bar .add .icon {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+.tool_bar .add .txt {
+    float: right;
+    font-size: 15px;
+    margin-right: 35px;
+}
+.content .list {
+    width: 100%;
+    
+}
+.content .list .item {
+    margin: 15px;
+    width: 100%;
+    height: 300px;
+}
+.content .list .item .pic {
+    float: left;
+    width: 210px;
+    height: 300px;
+}
+.content .list .item .txt {
+    float: left;
+    margin-left: 15px;
+}
+.content .list .item .txt p {
+    width: 670px;
+    margin-top: 5px;
+}
+.content .list .item .txt .info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;    
+}
+.content .list .item .txt .movie_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .list .item .action {
+    float: left;
+    padding-top: 20px;
+}
+.content .list .item .action p {
+    padding-left: 20px;
+    margin-top: 6px;
+}
