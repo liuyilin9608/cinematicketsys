@@ -51,8 +51,8 @@
                         <p class="buy_time">购买时间&nbsp;&nbsp;${ticket.buyTime}</p>
                     </div>
                     <p class="state">${ticket.state}</p>
-                    <form action="${pageContext.request.contextPath}/evaluate" method="post">
-                        <input type="hidden" name="movie" value="${ticket.movieName }">
+                    <form action="${pageContext.request.contextPath}/movie/detail?movie=${ticket.movieName}" method="post">
+                        <%-- <input type="hidden" name="movie" value="${ticket.movieName }"> --%>
                         <input type="submit" class="blue_a write" value="写影评">
                     </form>
                 </li>
