@@ -1,7 +1,6 @@
 package com.demo.entity;
 
 /**
- * 时间: 2017/11/18 19:08
  * 功能: 订单bean
  */
 

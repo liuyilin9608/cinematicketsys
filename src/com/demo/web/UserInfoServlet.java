@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/21 14:20
  * 功能: 个人中心
  */
 @WebServlet(urlPatterns = "/my")

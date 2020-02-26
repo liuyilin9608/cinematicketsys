@@ -23,7 +23,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 15:25
  * 功能: 用户订单管理
  */
 @WebServlet(urlPatterns = "/my/tickets")

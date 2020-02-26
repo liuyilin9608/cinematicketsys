@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/19 19:30
  * 功能: 管理员登录
  */
 @WebServlet(urlPatterns = "/admin/login")

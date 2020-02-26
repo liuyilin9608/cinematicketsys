@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/24 21:32
  * 功能: 获取图片
  */
 @WebServlet(urlPatterns = "/img")

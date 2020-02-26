@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/19 19:07
  * 功能: 基类，简化代码
  */
 public abstract class BaseServlet extends HttpServlet {

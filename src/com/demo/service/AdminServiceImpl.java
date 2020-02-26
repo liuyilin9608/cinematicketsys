@@ -8,7 +8,6 @@ import com.demo.factory.BaseFactory;
 import com.demo.util.Utils;
 
 /**
- * 时间: 2017/11/19 19:49
  * 功能: 操作数据库的业务
  */
 

@@ -4,7 +4,6 @@ import com.demo.exception.MyException;
 import com.demo.entity.Admin;
 
 /**
- * 时间: 2017/11/19 19:46
  * 功能:
  */
 

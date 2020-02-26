@@ -40,7 +40,7 @@
 <!-- end container -->
 
 	<div class="parallax-pro">
-    <div class="img-src" style="background-image: url('http://get-shit-done-pro.herokuapp.com/assets/img/bg6.jpg');"></div>
+    <div class="img-src" style=""></div>
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">

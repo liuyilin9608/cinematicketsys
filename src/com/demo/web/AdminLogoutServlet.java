@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * 时间: 2017/11/20 21:33
  * 功能: 管理员退出
  */
 @WebServlet(urlPatterns = "/admin/logout")

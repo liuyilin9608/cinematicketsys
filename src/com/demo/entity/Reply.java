@@ -2,7 +2,6 @@ package com.demo.entity;
 
 /**
  * 描述:
- * 时间: 2018/3/25 22:08
  */
 
 public class Reply {

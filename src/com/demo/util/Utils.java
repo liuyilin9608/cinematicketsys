@@ -12,7 +12,6 @@ import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 时间: 2017/11/18 13:27
  * 功能: 抽取出的一些用到的方法
  */
 

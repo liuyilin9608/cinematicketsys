@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/20 21:45
  * 功能: 用户管理
  */
 @WebServlet(urlPatterns = {"/admin", "/admin/users/delete"})

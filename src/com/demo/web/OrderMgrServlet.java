@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 21:19
  * 功能: 订单管理
  */
 @WebServlet(urlPatterns = {"/admin/orders", "/admin/orders/delete", "/admin/orders/update"})

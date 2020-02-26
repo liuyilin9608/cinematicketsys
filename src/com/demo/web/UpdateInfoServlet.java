@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 10:38
  * 功能: 修改个人资料
  */
 @WebServlet(urlPatterns = "/my/update")

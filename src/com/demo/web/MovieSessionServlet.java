@@ -23,7 +23,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 描述:
- * 时间: 2017/11/29 20:51
  */
 @WebServlet(urlPatterns = "/sessions")
 public class MovieSessionServlet extends BaseServlet {

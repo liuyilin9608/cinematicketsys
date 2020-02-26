@@ -31,7 +31,7 @@
 <div class="detail">
     <%@include file="head.jsp"%>
     <div class="movie_info">
-        <img class="pic" src="${pageContext.request.contextPath}/img?file=${movie.pic_name}" title="${movie.name}">
+        <img class="pic" src="${pageContext.request.contextPath}/images/${movie.pic_name}" title="${movie.name}">
         <div class="txt">
             <p class="movie_name">${movie.name}</p>
             <p class="info">导演:&nbsp;${movie.director}</p>

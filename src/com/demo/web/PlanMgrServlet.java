@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 21:30
  * 功能: 排片管理
  */
 @WebServlet(urlPatterns = {"/admin/plans", "/admin/plans/add", "/admin/plans/cancel"})

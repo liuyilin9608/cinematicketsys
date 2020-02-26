@@ -2,7 +2,6 @@ package com.demo.entity;
 
 /**
  * 描述: 座位信息
- * 时间: 2017/11/30 19:20
  */
 
 public class Seat {

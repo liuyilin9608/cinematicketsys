@@ -18,7 +18,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 21:27
  * 功能: 影评管理
  */
 @WebServlet(urlPatterns = {"/admin/evaluates", "/admin/evaluates/delete"})

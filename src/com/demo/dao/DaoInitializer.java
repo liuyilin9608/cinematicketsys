@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 /**
  * 描述:数据库初始化，如创建表
- * 时间: 2017/12/1 11:50
+ * 时间: 2020/1/1 11:50
  */
 
 public class DaoInitializer {

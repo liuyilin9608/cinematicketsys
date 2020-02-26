@@ -3,7 +3,7 @@ package com.demo.dao;
 import com.demo.entity.Admin;
 
 /**
- * 时间: 2017/11/19 18:26
+ * 时间: 2020/1/19 18:26
  * 功能:
  */
 

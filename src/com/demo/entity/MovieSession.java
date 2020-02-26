@@ -2,7 +2,6 @@ package com.demo.entity;
 
 /**
  * 描述:场次信息
- * 时间: 2017/11/29 21:09
  */
 
 public class MovieSession {

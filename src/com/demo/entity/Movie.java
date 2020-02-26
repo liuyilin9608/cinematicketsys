@@ -3,7 +3,6 @@ package com.demo.entity;
 import com.demo.util.Utils;
 
 /**
- * 时间: 2017/11/18 18:52
  * 功能: 电影bean
  */
 

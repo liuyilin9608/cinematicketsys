@@ -3,7 +3,6 @@ package com.demo.entity;
 import com.demo.util.Utils;
 
 /**
- * 时间: 2017/11/18 18:32
  * 功能: 用户bean
  */
 

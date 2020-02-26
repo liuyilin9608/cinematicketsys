@@ -21,7 +21,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 描述:购票
- * 时间: 2017/11/30 22:20
  */
 @WebServlet(urlPatterns = "/order")
 public class GenerateOrderServlet extends BaseServlet {

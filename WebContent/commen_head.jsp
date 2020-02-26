@@ -33,7 +33,7 @@
                             <img src="${pageContext.request.contextPath}/UI/assets/img/new_logo.png">
                         </div>
                         <div class="brand" style="margin-top:15px;">
-                           	user
+                           	${username }
                         </div>
                     </div>
                 </a>

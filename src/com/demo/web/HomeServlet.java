@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/26 20:12
  * 功能: 首页
  */
 @WebServlet(urlPatterns = "/home")

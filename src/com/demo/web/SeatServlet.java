@@ -20,7 +20,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 描述:选座
- * 时间: 2017/11/30 19:08
  */
 @WebServlet(urlPatterns = "/seat")
 public class SeatServlet extends BaseServlet {

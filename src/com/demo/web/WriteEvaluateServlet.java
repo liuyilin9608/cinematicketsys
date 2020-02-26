@@ -20,7 +20,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 描述: 写影评
- * 时间: 2017/12/1 16:39
  */
 @WebServlet(urlPatterns = "/evaluate")
 public class WriteEvaluateServlet extends BaseServlet {

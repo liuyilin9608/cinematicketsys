@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * 时间: 2017/11/21 14:07
  * 功能: 用户注册
  */
 @WebServlet(urlPatterns = "/reg")

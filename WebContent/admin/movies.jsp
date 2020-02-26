@@ -29,7 +29,7 @@
     <ul class="list">        
         <c:forEach items="${movies }" var="movie">
             <li class="item">
-                <img class="pic" src="${pageContext.request.contextPath}/img?file=${movie.pic_name}" title="${movie.name}">
+                <img class="pic" src="${pageContext.request.contextPath}/images/${movie.pic_name}" title="${movie.name}">
                 <div class="txt">
                     <p class="movie_name">${movie.name}</p>
                     <p class="info">导演:&nbsp;${movie.director}</p>

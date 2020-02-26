@@ -4,7 +4,6 @@ import java.util.List;
 
 /**
  * 描述: 订单详情
- * 时间: 2017/12/1 20:52
  */
 
 public class Ticket {

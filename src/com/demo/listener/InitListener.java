@@ -10,7 +10,6 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 /**
- * 时间: 2017/11/19 10:25
  * 功能: 做一些初始化的操作
  */
 @WebListener

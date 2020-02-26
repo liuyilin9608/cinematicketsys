@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * 时间: 2017/11/20 10:16
  * 功能: 管理员登录过滤器
  */
 @WebFilter(urlPatterns = "/admin/*")

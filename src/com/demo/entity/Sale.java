@@ -2,7 +2,6 @@ package com.demo.entity;
 
 /**
  * 描述: 票房
- * 时间: 2017/12/2 23:27
  */
 
 public class Sale {

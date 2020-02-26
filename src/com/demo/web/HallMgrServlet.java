@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 21:10
  * 功能: 影厅管理
  */
 @WebServlet(urlPatterns = {"/admin/halls", "/admin/halls/add", "/admin/halls/delete"})

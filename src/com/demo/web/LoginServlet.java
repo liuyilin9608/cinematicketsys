@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * 时间: 2017/11/20 16:57
  * 功能: 用户登录
  */
 @WebServlet(urlPatterns = "/login")

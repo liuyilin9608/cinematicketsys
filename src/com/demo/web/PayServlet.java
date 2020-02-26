@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 描述:
- * 时间: 2018/3/27 10:29
  */
 @WebServlet(urlPatterns = "/pay")
 public class PayServlet extends BaseServlet {

@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/23 21:32
  * 功能: 票房统计
  */
 @WebServlet(urlPatterns = "/sales")

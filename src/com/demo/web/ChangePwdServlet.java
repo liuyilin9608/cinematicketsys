@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/22 09:27
  * 功能: 用户修改密码
  */
 @WebServlet(urlPatterns = "/my/chgpwd")

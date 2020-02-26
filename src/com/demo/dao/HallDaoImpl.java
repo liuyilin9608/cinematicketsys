@@ -5,7 +5,6 @@ import com.demo.entity.Hall;
 import java.util.List;
 
 /**
- * 时间: 2017/11/24 11:19
  * 功能: 影厅数据表操作
  */
 

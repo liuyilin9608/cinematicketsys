@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * 时间: 2017/11/22 14:43
  * 功能:
  */
 @WebFilter(urlPatterns = {"/my/*", "/sessions", "/seat", "/order", "/evaluate", "/pay"})

@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 时间: 2017/11/21 11:27
  * 功能: 拦截直接访问jsp文件
  */
 @WebFilter(urlPatterns = "*.jsp")
