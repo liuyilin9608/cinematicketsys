@@ -16,12 +16,12 @@
     height: 40px;
     margin-left: 5px;
     line-height: 40px;
-    background:#65B336;
+    background:#CC6600;
     color: white;
     border:solid #ccc 1px;
     border-radius: 3px;
 }
 .tool_bar .search .search_action:hover {
     cursor: pointer;
-    background:#44B200;
+    background:#FF9900;
 }

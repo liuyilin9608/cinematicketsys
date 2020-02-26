@@ -20,6 +20,14 @@
                 </c:if>
             </li>
             <li>
+                <c:if test="${chkItem == 6}">
+                    <a href="${pageContext.request.contextPath}/admin/plans" class="chked">放映设置</a>
+                </c:if>
+                <c:if test="${chkItem != 6}">
+                    <a href="${pageContext.request.contextPath}/admin/plans">放映设置</a>
+                </c:if>
+            </li>
+            <li>
                 <c:if test="${chkItem == 3}">
                     <a href="${pageContext.request.contextPath}/admin/halls" class="chked">影厅设置</a>
                 </c:if>
@@ -37,20 +45,13 @@
             </li>
             <li>
                 <c:if test="${chkItem == 5}">
-                    <a href="${pageContext.request.contextPath}/admin/evaluates" class="chked">影评管理</a>
+                    <a href="${pageContext.request.contextPath}/admin/evaluates" class="chked">影视评论</a>
                 </c:if>
                 <c:if test="${chkItem != 5}">
-                    <a href="${pageContext.request.contextPath}/admin/evaluates">影评管理</a>
+                    <a href="${pageContext.request.contextPath}/admin/evaluates">影视评论</a>
                 </c:if>
             </li>
-            <li>
-                <c:if test="${chkItem == 6}">
-                    <a href="${pageContext.request.contextPath}/admin/plans" class="chked">排片管理</a>
-                </c:if>
-                <c:if test="${chkItem != 6}">
-                    <a href="${pageContext.request.contextPath}/admin/plans">排片管理</a>
-                </c:if>
-            </li>
+            
         </ul>
     </div>
     <div class="nav_right">

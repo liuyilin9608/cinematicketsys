@@ -39,7 +39,7 @@
     text-align: center;
     display: block;
     padding: 0;
-    background:#65B336;
+    background:#CC6600;
     color: white;
     border:solid #ccc 1px;
     border-radius: 3px;
@@ -47,7 +47,7 @@
 }
 .detail .movie_info .buy:hover {
     cursor: pointer;
-    background:#44B200;
+    background:#FF9900;
 }
 .detail .synopsis {
     margin: 15px;

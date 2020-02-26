@@ -25,7 +25,7 @@
     float: right;
     width: 80px;
     height: 40px;
-    background:#65B336;
+    background:#CC6600;
     color: white;
     border:solid #ccc 1px;
     border-radius: 3px;
@@ -33,7 +33,7 @@
 }
 .add .s_add:hover {
     cursor: pointer;
-    background:#44B200;
+    background:#FF9900;
 }
 .add .error_msg {
     margin-left: 20px;

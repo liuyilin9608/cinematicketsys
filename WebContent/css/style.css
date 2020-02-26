@@ -20,24 +20,24 @@ ul li {
     width: 250px;
     height: 40px;
     font-size: 16px;
-    background:#65B336;
+    background:#cc6600;
     color: white;
     border:solid #ccc 1px;
     border-radius: 3px;
 }
 .submit:hover{
     cursor: pointer;
-    background:#459415;
+    background:#ff9900;
 }
 .error_msg {
     color: red;
 }
 a {
     text-decoration:none;
-    color: #65B336;
+    color: #CC6600;
 }
 a:hover{    
-    color:#77D13F;
+    color:#FF9900;
 }
 p {
     color: #333;

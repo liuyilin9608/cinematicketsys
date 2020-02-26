@@ -2,7 +2,7 @@
     height: 50px;
     line-height: 50px;
     border-top: 1px solid #ccc;
-    border-bottom: 3px solid #65B336;
+    border-bottom: 3px solid #CC6600;
 }
 .nav_bar .title {
     float: left;
@@ -10,7 +10,7 @@
     height: 50px;
     margin-left: 20px;
     font-weight: bold;
-    color: #65B336;
+    color: #CC6600;
 }
 .nav_right {
     float: right;

@@ -10,11 +10,11 @@
     height:40px;
     color: white;
     text-align: center;
-    background: #65B336;
+    background: #CC6600;
 }
 .tool_bar .add:hover {
     cursor: pointer;
-    background:#44B200;
+    background:#FF9900;
 }
 .tool_bar .add span {
     height: 40px;
